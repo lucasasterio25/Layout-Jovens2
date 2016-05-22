@@ -1,0 +1,43 @@
+h1#logo{
+  margin: 50px 50px 50px 70px;
+}
+
+.nome-usuario{
+  font-size: 33px;
+}
+
+div#main{
+	margin-top: 110px;
+}
+.col-md-4{
+  border: 2px solid #888;
+   border-radius:3px;
+   background-color: #fff;
+}
+
+.col-md-8{
+  border: 2px solid #888;
+   border-radius:3px;
+   background-color: #fff;
+}
+
+div#nova{
+  border: 2px solid #888;
+   border-radius:3px;
+   background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+.col-md-8{
+	height: 700px;
+}
+
+.col-md-4{
+	height: 350px;
+}
+
+div#nova{
+	height: 250px;
+}
+
+}
